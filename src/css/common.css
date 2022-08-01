@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  margin-bottom: 30px;
+}
+
+.timer {
+  display: flex;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.label {
+  font-size: 18px;
+}

@@ -16,6 +16,8 @@ refs.btnStop.addEventListener('click', stopChangeBodyColor);
 function startChangeBodyColor() {
   refs.btnStart.setAttribute('disabled', '');
 
+  refs.body.style.backgroundColor = getRandomHexColor();
+
   colorInterval = setInterval(() => {
     refs.body.style.backgroundColor = getRandomHexColor();
   }, 1000);
